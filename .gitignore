@@ -1,0 +1,33 @@
+# Gitignore for the project
+
+# Python
+__pycache__/
+*.pyc
+*.env
+.venv/
+virtualenv/
+venv/
+
+# Node
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.dockerignore
+
+# Database
+*.sql
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.Trashes
+thumbs.db
