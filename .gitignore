@@ -1,0 +1,45 @@
+# Gitignore for Personal Portfolio Project
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+.venv/
+virtualenv/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node.js
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.dockerignore
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
